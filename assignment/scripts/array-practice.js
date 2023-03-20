@@ -46,6 +46,7 @@ console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
 animalArray.push('penguin');
+
 // Used to log the new animal array that was pushed
 // into the animalArray variable
 console.log('Added an animal to end,', animalArray)
@@ -67,7 +68,6 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
-
 let removedFood= favoriteFoods.pop();
 
 // Used to log the removed food item and then 
@@ -111,6 +111,7 @@ console.log(favoriteFoods);
 favoriteFoods.sort();
 favoriteFoods.reverse();
 console.log(favoriteFoods)
+
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
